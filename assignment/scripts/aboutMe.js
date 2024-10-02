@@ -66,6 +66,11 @@ console.log(result);
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = `Try again later.`;
+if (luckyNumber === 2 && adventurous) {
+    diceRoll = `Roll the dice!`;
+}
+console.log(diceRoll);
 
 // 14 - Create a variable called `petStatus`.
 //      Write a conditional that covers the following:
